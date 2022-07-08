@@ -1,0 +1,99 @@
+.sidebar {
+    height: 138vh;
+    width: 300px;
+    background-color: black;
+    color: white;
+    position: relative;
+  }
+  
+  .sidebar_list {
+    height: auto;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .Logo {
+    position: absolute;
+    top: 10px;
+    color: #000;
+    border: 1px solid #000;
+    background-color: #fff;
+    padding: 5px 15px;
+  }
+  
+  .sidebar_list ul {
+    width: 100%;
+    height: 50px;
+    list-style: none;
+    margin: 0;
+    padding: 100px 0 0 30px;
+    color: grey;
+  }
+  
+  .sidebar_list li {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .sidebar_list li:hover{
+    /* border: 1px solid white; */
+    width: 150px;
+    padding: 10px 20px;
+    background-color: grey;
+    display: inline-block;
+    color: #fff;
+  }
+  
+  .icons {
+    margin-right: 30px;
+  }
+  
+  
+  .userInfo {
+    position: absolute;
+    bottom: 50px;
+  }
+  
+  .userInfo hr {
+    width: 170px;
+    border: 0.06px solid grey;
+    opacity: 0.49;
+  }
+  
+  .userInfo_inner{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .username-char{
+    width: 30px;
+    height: 30px;
+    background: darkgreen;
+    color: #fff;
+    border-radius: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+  }
+  
+  .username{
+    font-size: 14px;
+    color: #fff;
+  }
+  
+  .logout{
+    padding: 5px 15px;
+    color: #fff;
+    border: 1px solid darkgreen;
+    background-color: darkgreen;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
